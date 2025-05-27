@@ -1,0 +1,15 @@
+:host {
+    display: block;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #eef5fb;
+    border-radius: 12px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #0a3d62;
+    margin-bottom: 24px;
+  }
+  

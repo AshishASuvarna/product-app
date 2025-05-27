@@ -1,0 +1,11 @@
+<div *ngIf="product; else notFound">
+    <h2>{{ product.name }}</h2>
+    <p><strong>Price:</strong> ${{ product.price }}</p>
+    <p>{{ product.description }}</p>
+    <button routerLink="/products">← Back to Product List</button>
+  </div>
+  
+  <ng-template #notFound>
+    <p>Product not found.</p>
+    <button routerLink="/products">← Back to Product List</button>
+  </ng-template>
