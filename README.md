@@ -1,103 +1,92 @@
 # 🛍️ ProductApp – Angular Assignment
 
-This project was created as part of a technical assessment to demonstrate Angular skills including:
-
-- Component-based architecture
-- Services and data handling
-- Routing and navigation
-- Data binding using `@Input()` and `@Output()`
-- Observable-based asynchronous logic
+This is a web application built using Angular as part of a technical assignment. It showcases how to build a product list with interactive features like viewing details and simulating an "Add to Cart" action.
 
 ---
 
-## ✨ Features
+## ✨ What This App Does
 
-- View a list of products on `/products`
-- Each product is displayed using a reusable `ProductCardComponent`
-- "Add to Cart" functionality (logs product to console)
-- Navigate to individual product detail via `/products/:id`
-- Modular structure with clean file organization
-
----
-
-## 🚀 How to Run the Application Locally
-
-### ✅ Prerequisites
-
-Make sure you have:
-
-- [Node.js](https://nodejs.org/) installed (v16+ recommended)
-- [Angular CLI](https://angular.io/cli)
-
-Install Angular CLI globally if needed:
-```bash
-npm install -g @angular/cli
-```
+- Displays a list of products
+- Each product shows its name, price, and description
+- You can click **"View Details"** to see more about a product
+- You can click **"Add to Cart"** to simulate adding it to a cart (it logs a message for now)
+- Clean layout and easy navigation between views
 
 ---
 
-### 🔧 Installation & Setup
+## 🚀 How to Open and Run the App on Your Computer
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/YOUR_USERNAME/product-app.git
-cd product-app
-```
+### ✅ What You Need Before You Start
 
-2. **Install dependencies**
-```bash
-npm install
-```
+To run this app, you need to install two things on your computer:
 
-3. **Start the dev server**
-```bash
-ng serve
-```
+1. **Node.js**  
+   Download and install it from here: [https://nodejs.org](https://nodejs.org)
 
-4. **Open the app**
-Go to [http://localhost:4200](http://localhost:4200)
+2. **Angular CLI**  
+   Once Node.js is installed, open your terminal or command prompt and run this command:
+   ```bash
+   npm install -g @angular/cli
+   ```
+
+> These tools are safe and widely used for running web applications.
 
 ---
 
-## 📁 Project Structure
+### 🔧 Steps to Open the App
 
-```
-src/
-├── app/
-│   ├── components/
-│   │   ├── product-card/
-│   │   ├── product-list/
-│   │   └── product-detail/
-│   ├── services/
-│   │   └── product.service.ts
-│   ├── product.model.ts
-│   ├── app-routing.module.ts
-│   └── app.module.ts
-...
-```
+1. **Download the App Files**
+   - Open GitHub and click this link:  
+     👉 [https://github.com/YOUR_USERNAME/product-app](https://github.com/YOUR_USERNAME/product-app)
+   - Click the green **"Code"** button, then click **"Download ZIP"**
+   - Extract the ZIP file to your desktop or any folder
+
+2. **Open the App Folder in VS Code or Terminal**
+   - Open a terminal (Command Prompt or PowerShell on Windows, Terminal on Mac/Linux)
+   - Use `cd` to go to the folder you just extracted. For example:
+     ```bash
+     cd Desktop/product-app
+     ```
+
+3. **Install Required Packages**
+   Run this command:
+   ```bash
+   npm install
+   ```
+   This prepares everything needed to run the app.
+
+4. **Start the App**
+   Run:
+   ```bash
+   ng serve
+   ```
+   Wait until it says: `✔ Compiled successfully.`
+
+5. **View the App in Your Browser**
+   Open your web browser and go to:  
+   👉 [http://localhost:4200](http://localhost:4200)
 
 ---
 
-## 🧪 Usage Demo
+## 🧭 How to Use the App
 
-- Visit `/products` to view the product list.
-- Click **"View Details"** to go to `/products/:id`
-- Click **"Add to Cart"** to simulate adding a product (console log output)
+- You will see a list of products.
+- Click **"View Details"** to see more info about a product.
+- Click **"Add to Cart"** to simulate adding the item (you’ll see a message in the console).
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tools Used to Build This App
 
-- Angular 17
-- TypeScript
-- RxJS
-- HTML + CSS
+- **Angular** – A framework for building web apps
+- **TypeScript** – A programming language used in Angular
+- **HTML & CSS** – Used to structure and style the web pages
 
 ---
 
 ## 📬 Contact
 
-For questions, feel free to reach out:  
+If you need help or have any questions, feel free to email me:  
 📧 ashishasuvarna@gmail.com
 
 ---
