@@ -72,7 +72,14 @@ To run this app, you need to install two things on your computer:
 
 - You will see a list of products.
 - Click **"View Details"** to see more info about a product.
-- Click **"Add to Cart"** to simulate adding the item (you’ll see a message in the console).
+- Click **"Add to Cart"** to simulate adding the item
+  👉 You’ll see a message in the browser console.
+
+  📌 To open the console in Google Chrome:
+
+  Right-click anywhere on the page and select "Inspect"
+
+  Then click the "Console" tab at the top of the panel that opens
 
 ---
 
