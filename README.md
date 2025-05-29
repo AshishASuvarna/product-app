@@ -37,7 +37,7 @@ To run this app, you need to install two things on your computer:
 
 1. **Download the App Files**
    - Open GitHub and click this link:  
-     👉 [https://github.com/YOUR_USERNAME/product-app](https://github.com/YOUR_USERNAME/product-app)
+     👉 [https://github.com/AshishASuvarna/product-app](https://github.com/AshishASuvarna/product-app)
    - Click the green **"Code"** button, then click **"Download ZIP"**
    - Extract the ZIP file to your desktop or any folder
 
